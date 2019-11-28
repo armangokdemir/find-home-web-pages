@@ -1,0 +1,899 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+
+@font-face {
+                          font-family: "IBMPlexSans-Medium";
+                          src: url('../fonts/IBMPlexSans-Medium.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "OpenSans-Regular";
+                          src: url('../fonts/OpenSans-Regular.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "OpenSans-SemiBold";
+                          src: url('../fonts/OpenSans-SemiBold.ttf') format("truetype");
+                        }
+                        
+.findhomepage {
+  width               : 100%;
+  min-width           : 1440px;
+  height              : 100vh;
+  min-height          : 1024px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(177, 176, 176, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+textarea:focus, input:focus {
+  outline             : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.findhomepage .bghome {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 112px;
+  height              : 912px;
+  width               : 866px;
+  position            : absolute;
+  margin              : 0;
+  left                : 574px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.findhomepage .bghome .mask {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 912px;
+  width               : 866px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.findhomepage .bghome .dc6il5r8502ed530afc4e2a8f26438e0173c6bb {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1147px;
+  width               : 2039px;
+  position            : absolute;
+  margin              : 0;
+  left                : -271px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.findhomepage .lefpage {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 112px;
+  height              : 912px;
+  width               : 574px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.findhomepage .lefpage .rectangle {
+  background-color    : rgba(249, 249, 249, 1.0);
+  top                 : 0px;
+  height              : 912px;
+  width               : 574px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.findhomepage .lefpage .registerbutton {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 548px;
+  height              : 60px;
+  width               : 394px;
+  position            : absolute;
+  margin              : 0;
+  left                : 87px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.findhomepage .lefpage .registerbutton:hover {
+  box-shadow          : 0px 0px 10px 2px rgba(0,0,0,0.2);
+}
+.findhomepage .lefpage .registerbutton .rectangle1 {
+  background-color    : rgba(255, 189, 74, 1.0);
+  top                 : 0px;
+  height              : 60px;
+  width               : 394px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 10px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.findhomepage .lefpage .registerbutton .register {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 122px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "IBMPlexSans-Medium", Helvetica, Arial, serif;
+  font-size           : 28.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.08px;
+  line-height         : 37.0px;
+}
+.findhomepage .lefpage .pricearea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 408px;
+  height              : 60px;
+  width               : 394px;
+  position            : absolute;
+  margin              : 0;
+  left                : 87px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.findhomepage .lefpage .pricearea .rectangle1 {
+  background-color    : rgba(234, 234, 234, 1.0);
+  top                 : 0px;
+  height              : 60px;
+  width               : 394px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 10px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.findhomepage .lefpage .pricearea .maxprice {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(34, 34, 34, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.46px;
+  line-height         : 17.0px;
+}
+.findhomepage .lefpage .pricearea .text1000usd {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : 30px;
+  width               : 101px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "OpenSans-Regular", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(34, 34, 34, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.77px;
+  line-height         : 27.0px;
+  border              : 0;
+  resize              : none;
+  padding             : 0;
+}
+.findhomepage .lefpage .pricearea .text1000usd::placeholder {
+  color               : rgba(34, 34, 34, 0.6);
+}
+.findhomepage .lefpage .priceareacopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 478px;
+  height              : 60px;
+  width               : 394px;
+  position            : absolute;
+  margin              : 0;
+  left                : 87px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.findhomepage .lefpage .priceareacopy .rectangle1 {
+  background-color    : rgba(234, 234, 234, 1.0);
+  top                 : 0px;
+  height              : 60px;
+  width               : 394px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 10px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.findhomepage .lefpage .priceareacopy .days {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(34, 34, 34, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.46px;
+  line-height         : 17.0px;
+}
+.findhomepage .lefpage .priceareacopy .text7days {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : 30px;
+  width               : 70px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "OpenSans-Regular", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(34, 34, 34, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.77px;
+  line-height         : 27.0px;
+  border              : 0;
+  resize              : none;
+  padding             : 0;
+}
+.findhomepage .lefpage .priceareacopy .text7days::placeholder {
+  color               : rgba(34, 34, 34, 0.6);
+}
+.findhomepage .lefpage .passwordarea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 338px;
+  height              : 60px;
+  width               : 394px;
+  position            : absolute;
+  margin              : 0;
+  left                : 87px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.findhomepage .lefpage .passwordarea .rectangle1 {
+  background-color    : rgba(234, 234, 234, 1.0);
+  top                 : 0px;
+  height              : 60px;
+  width               : 394px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 10px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.findhomepage .lefpage .passwordarea .persons {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(34, 34, 34, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.46px;
+  line-height         : 17.0px;
+}
+.findhomepage .lefpage .passwordarea .text1adult {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : 30px;
+  width               : 75px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "OpenSans-Regular", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(34, 34, 34, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.77px;
+  line-height         : 27.0px;
+  border              : 0;
+  resize              : none;
+  padding             : 0;
+}
+.findhomepage .lefpage .passwordarea .text1adult::placeholder {
+  color               : rgba(34, 34, 34, 0.6);
+}
+.findhomepage .lefpage .emailarea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 268px;
+  height              : 60px;
+  width               : 394px;
+  position            : absolute;
+  margin              : 0;
+  left                : 87px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.findhomepage .lefpage .emailarea .rectangle1 {
+  background-color    : rgba(234, 234, 234, 1.0);
+  top                 : 0px;
+  height              : 60px;
+  width               : 394px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 10px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.findhomepage .lefpage .emailarea .textistanbulturkey {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : 30px;
+  width               : 164px;
+  position            : absolute;
+  margin              : 0;
+  left                : 14px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "OpenSans-Regular", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(34, 34, 34, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.77px;
+  line-height         : 27.0px;
+  border              : 0;
+  resize              : none;
+  padding             : 0;
+}
+.findhomepage .lefpage .emailarea .textistanbulturkey::placeholder {
+  color               : rgba(34, 34, 34, 0.6);
+}
+.findhomepage .lefpage .emailarea .location {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 14px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(34, 34, 34, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.46px;
+  line-height         : 17.0px;
+}
+.findhomepage .lefpage .usernamearea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 198px;
+  height              : 60px;
+  width               : 394px;
+  position            : absolute;
+  margin              : 0;
+  left                : 87px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.findhomepage .lefpage .usernamearea .rectangle1 {
+  background-color    : rgba(234, 234, 234, 1.0);
+  top                 : 0px;
+  height              : 60px;
+  width               : 394px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 10px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.findhomepage .lefpage .usernamearea .text14nov {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : 30px;
+  width               : 73px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "OpenSans-Regular", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(34, 34, 34, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.77px;
+  line-height         : 27.0px;
+  border              : 0;
+  resize              : none;
+  padding             : 0;
+}
+.findhomepage .lefpage .usernamearea .text14nov::placeholder {
+  color               : rgba(34, 34, 34, 0.6);
+}
+.findhomepage .lefpage .usernamearea .dates {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 14px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(34, 34, 34, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.46px;
+  line-height         : 17.0px;
+}
+.findhomepage .lefpage .headertext {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 94px;
+  height              : 52px;
+  width               : 424px;
+  position            : absolute;
+  margin              : 0;
+  left                : 72px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.findhomepage .lefpage .headertext .findyouridealhome {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "OpenSans-SemiBold", Helvetica, Arial, serif;
+  font-size           : 38.0px;
+  color               : rgba(34, 34, 34, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.46px;
+  line-height         : 52.0px;
+}
+.findhomepage .header {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 112px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.findhomepage .header .headerbuts {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 112px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.findhomepage .header .headerbuts .rectangle {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 112px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.findhomepage .header .headerbuts .line3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 72px;
+  height              : 3px;
+  width               : 151px;
+  position            : absolute;
+  margin              : 0;
+  left                : 184px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.findhomepage .header .headerbuts .findhome {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 37px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 184px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "IBMPlexSans-Medium", Helvetica, Arial, serif;
+  font-size           : 28.0px;
+  color               : rgba(34, 34, 34, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.08px;
+  line-height         : 37.0px;
+}
+.findhomepage .header .headerbuts .community {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 37px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 383px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "IBMPlexSans-Medium", Helvetica, Arial, serif;
+  font-size           : 28.0px;
+  color               : rgba(34, 34, 34, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.08px;
+  line-height         : 37.0px;
+}
+.findhomepage .header .headerbuts .blog {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 37px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 591px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "IBMPlexSans-Medium", Helvetica, Arial, serif;
+  font-size           : 28.0px;
+  color               : rgba(34, 34, 34, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.08px;
+  line-height         : 37.0px;
+}
+.findhomepage .header .headerbuts .about {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 37px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 703px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "IBMPlexSans-Medium", Helvetica, Arial, serif;
+  font-size           : 28.0px;
+  color               : rgba(34, 34, 34, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.08px;
+  line-height         : 37.0px;
+}
+.findhomepage .header .headerbuts .login {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 37px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1119px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "IBMPlexSans-Medium", Helvetica, Arial, serif;
+  font-size           : 28.0px;
+  color               : rgba(34, 34, 34, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.08px;
+  line-height         : 37.0px;
+}
+.findhomepage .header .headerbuts .whitesimplehomefurnishinglogo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 21px;
+  height              : 79px;
+  width               : 105px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.findhomepage .header .registerbutton {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 30px;
+  height              : 50px;
+  width               : 159px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1244px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.findhomepage .header .registerbutton .rectangle {
+  background-color    : rgba(255, 91, 92, 1.0);
+  top                 : 0px;
+  height              : 50px;
+  width               : 159px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 10px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.findhomepage .header .registerbutton .register {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 21px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "IBMPlexSans-Medium", Helvetica, Arial, serif;
+  font-size           : 28.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.08px;
+  line-height         : 37.0px;
+}
+.findhomepage .bginfo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 834px;
+  height              : 157px;
+  width               : 741px;
+  position            : absolute;
+  margin              : 0;
+  left                : 637px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.findhomepage .bginfo .bginfo1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 157px;
+  width               : 741px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.findhomepage .bginfo .bginfo1 .rectangle {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 157px;
+  width               : 741px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 10px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.findhomepage .bginfo .bginfo1 .rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 157px;
+  width               : 157px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.findhomepage .bginfo .ahealthandsafety {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 65px;
+  height              : auto;
+  width               : 525px;
+  position            : absolute;
+  margin              : 0;
+  left                : 185px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(34, 34, 34, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.62px;
+  line-height         : 22.0px;
+}
+.findhomepage .bginfo .safetypolicy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 184px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "OpenSans-SemiBold", Helvetica, Arial, serif;
+  font-size           : 34.0px;
+  color               : rgba(34, 34, 34, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.31px;
+  line-height         : 46.0px;
+}
+.findhomepage .a69938 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 869px;
+  height              : 87px;
+  width               : 87px;
+  position            : absolute;
+  margin              : 0;
+  left                : 677px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
